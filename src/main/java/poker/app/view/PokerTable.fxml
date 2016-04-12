@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="725.0" prefWidth="695.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane layoutY="26.0" prefHeight="699.0" prefWidth="657.0">
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="226.0" pickOnBounds="true" preserveRatio="true" />
+                  <ButtonBar prefHeight="150.0" prefWidth="181.0">
+                     <buttons>
+                        <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                          <buttons>
+                            <Button mnemonicParsing="false" text="Sit" />
+                          </buttons>
+                        </ButtonBar>
+                        <Button mnemonicParsing="false" text="Leave" />
+                     </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+         </bottom>
+         <top>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true" />
+                  <ButtonBar prefHeight="150.0" prefWidth="158.0">
+                     <buttons>
+                        <ButtonBar prefHeight="40.0" prefWidth="200.0">
+                          <buttons>
+                            <Button mnemonicParsing="false" text="Sit " />
+                          </buttons>
+                        </ButtonBar>
+                        <Button mnemonicParsing="false" text="Leave" />
+                     </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+         </top>
+         <left>
+            <VBox prefHeight="399.0" prefWidth="78.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="139.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <HBox prefHeight="199.0" prefWidth="200.0">
+                     <children>
+                        <ButtonBar prefHeight="117.0" prefWidth="200.0">
+                           <buttons>
+                              <ToggleButton mnemonicParsing="false" text="Sit" />
+                              <Button mnemonicParsing="false" text="Leave" />
+                           </buttons>
+                        </ButtonBar>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </left>
+         <right>
+            <VBox prefHeight="399.0" prefWidth="179.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="149.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                  <ButtonBar prefHeight="40.0" prefWidth="229.0" />
+                  <HBox prefHeight="100.0" prefWidth="208.0">
+                     <children>
+                        <ButtonBar prefHeight="100.0" prefWidth="201.0">
+                          <buttons>
+                              <ToggleButton mnemonicParsing="false" text="Sit" />
+                              <Button mnemonicParsing="false" text="Leave" />
+                          </buttons>
+                        </ButtonBar>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </right>
+         <center>
+            <FlowPane prefHeight="399.0" prefWidth="242.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="140.0" fitWidth="260.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </FlowPane>
+         </center>
+      </BorderPane>
+      <MenuBar layoutX="-7.0" layoutY="2.0" prefHeight="25.0" prefWidth="709.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Games ">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="5 Card Poker" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Wild Poker" />
+                  <MenuItem mnemonicParsing="false" text="5 Card Draw" />
+                  <MenuItem mnemonicParsing="false" text="7 Card Draw" />
+                  <MenuItem mnemonicParsing="false" text="UnspeciTexas Hold 'em" />
+                  <MenuItem mnemonicParsing="false" text="Omaha" />
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
